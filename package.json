@@ -5,13 +5,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-
-    "dev:ssr": "ng run ng-basics:serve-ssr",
-    "serve:ssr": "node dist/ng-basics/server/main.js",
-    "build:ssr": "ng build && ng run ng-basics:server",
-    "prerender": "ng run ng-basics:prerender",
-    "build:ssr:digitalocean": "ng build --base-href / && ng run ng-basics:server && mv dist/your-project _static && \\cp -r _static/server/main.js _static/main.js",
-
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
